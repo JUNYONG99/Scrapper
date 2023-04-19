@@ -26,6 +26,8 @@ Flask, picocss
 ## Demo
 use Replit <br>
 
-![image](https://user-images.githubusercontent.com/118879439/233121974-0eab522e-1835-43b3-80cb-29b6c96957e6.png) <br>
-
 https://replit.com/@JUNYONG99/PyS07 
+
+![image](https://user-images.githubusercontent.com/118879439/233121974-0eab522e-1835-43b3-80cb-29b6c96957e6.png) <br>
+![image](https://user-images.githubusercontent.com/118879439/233122254-45e93d09-158c-4166-bb15-e68b00591535.png) <br>
+
