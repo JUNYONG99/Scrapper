@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    h1 {
+      margin-bottom: 25px;
+    }
+    .export {
+      width: 150px; 
+      text-decoration:none; 
+      text-align: center;
+      border: solid 1px #333; 
+      border-radius: 8px; 
+      padding: 10px;
+      color: #333;
+    }
+    .close {
+      float: right;
+      width: 50px; 
+      text-decoration:none; 
+      text-align: center;
+      border: solid 1px #333; 
+      border-radius: 8px; 
+      padding: 10px;
+      color: #333;
+    }
+    .export:hover,
+    .close:hover {
+      background: #333;
+      color: #ffffff;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <a class="close" href="/">X</a>
+    <hgroup>
+      <h1>Search Results for " <span style="text-transform: uppercase; color: #477EFF;">{{keyword}}</span> "</h1>
+      {% if jobs %}
+        <a class="export" target="_blank" href="/export?keyword={{keyword}}">Export to file</a>
+      {% endif %}
+    </hgroup>
+    <form action="/search">
+      <div style="display: flex;">
+        <input type="text" name="keyword" placeholder="Write keyword please"/>
+        <button style="width: 200px; margin-left: 5px;">Research</button>
+      </div>
+    </form>
+    {% if jobs %}
+    <figure>
+      <table role="grid" style="border: solid 1px #ccc;">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for job in jobs %}
+               <tr>
+                 <td>{{job.company}}</td>
+                 <td>{{job.position}}</td>
+                 <td>{{job.location}}</td>
+               </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+   </figure>
+   {% else %}
+    <h3 style="text-align: center">Work does not exist.</h3>
+    <p style="text-align: center">Rerearch for another jobs.</p>
+   {% endif %}
+  </main>
+</body>
+</html>

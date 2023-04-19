@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Scrapper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+  <main class="container">
+    {% with messages = get_flashed_messages() %}
+     {% if messages %}
+        <script>
+            alert("{{messages}}")
+        </script>
+     {% endif %}
+    {% endwith %}
+    <h1 style="text-align:center;">
+      Job Scrapper<br/><small style="font-size: 15px; color: #ccc;">with Nomadcoders</small>
+    </h1>
+    <img style="display: block; margin-left: auto; margin-right: auto;" src="{{url_for('static', filename = '/img/m.svg')}}">
+    <h4 style="text-align:center; margin-top: 30px;">What job do you want?</h4>
+    <form action="/search"> 
+      <div style="display: flex;">
+        <input type="text" name="keyword" placeholder="Write keyword please"/>
+        <button style="width: 200px; margin-left: 5px;">Search</button>
+      </div>
+    </form>
+    
+  </main>
+</body>
+</html>
