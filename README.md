@@ -11,8 +11,8 @@ https://remoteok.com <br>
 
 https://weworkremotely.com <br>
 
-<h3>It is clear that it was made for learning, not for commercial use. <br>
-I'll delete it if it's a problem</h3>
+<strong>It is clear that it was made for learning, not for commercial use. <br>
+I'll delete it if it's a problem</strong>
 
 <br>
 
