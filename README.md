@@ -11,7 +11,8 @@ https://remoteok.com <br>
 
 https://weworkremotely.com <br>
 
-<strong>It is clear that it was made for learning, not for commercial use</strong>
+<h3>It is clear that it was made for learning, not for commercial use. <br>
+I'll delete it if it's a problem</h3>
 
 <br>
 
@@ -27,8 +28,9 @@ Flask, picocss
 
 ## Demo
 Use Replit <br>
-Go in and click the run button to activate
-https://replit.com/@JUNYONG99/PyS07 
+https://replit.com/@JUNYONG99/PyS07  <br>
+
+<h3>Go in and click the run button to activate</h3>
 
 ![image](https://user-images.githubusercontent.com/118879439/233121974-0eab522e-1835-43b3-80cb-29b6c96957e6.png) <br>
 ![image](https://user-images.githubusercontent.com/118879439/233122254-45e93d09-158c-4166-bb15-e68b00591535.png) <br>
