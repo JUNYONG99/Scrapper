@@ -27,7 +27,7 @@ Flask, picocss
 
 ## Demo
 Use Replit <br>
-
+Go in and click the run button to activate
 https://replit.com/@JUNYONG99/PyS07 
 
 ![image](https://user-images.githubusercontent.com/118879439/233121974-0eab522e-1835-43b3-80cb-29b6c96957e6.png) <br>
