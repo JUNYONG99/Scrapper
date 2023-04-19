@@ -23,8 +23,10 @@ html, css, python
 ## FrameWork
 Flask, picocss
 
+<br>
+
 ## Demo
-use Replit <br>
+Use Replit <br>
 
 https://replit.com/@JUNYONG99/PyS07 
 
